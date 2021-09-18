@@ -3,7 +3,7 @@ function getSum(array) {
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
         if (Number.isInteger(parseFloat(element))) {
-            sum += parseFloat(element)
+            sum += parseInt(element)
         }
     }
     console.log(sum)

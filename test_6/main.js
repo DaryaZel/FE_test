@@ -1,3 +1,3 @@
 
-    const regex  = /(.*(#rules).*(Softeq).*)|(.*(Softeq).*(#rules).*)/
+const regex = /(.*(#rules).*(Softeq).*)|(.*(Softeq).*(#rules).*)/
 
